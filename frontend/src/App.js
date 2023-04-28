@@ -1,11 +1,15 @@
-import {BrowserRouter, Route, Routes} from 'react-route-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './page/Home';
+import Roulette from './page/Roulette';
 
 function App() {
   return (
-    <div>
-      <Route path="/" component={Home} />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Roulette" element={<Roulette />} />
+      </Routes>
+    </Router>
   );
 }
 
