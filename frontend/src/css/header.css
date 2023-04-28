@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+}
+#header {
+  width: 100%;
+  height: 90px;
+  background-color: #f1fcff;
+
+  display: flex;
+  justify-content: space-between;
+}
+#wrap {
+  display: flex;
+}
+
+#logo {
+  margin-left: 30%;
+  line-height: 90px;
+}
+
+#contentsWrap {
+  display: flex;
+  margin-left: 30%;
+  width: 100%;
+  align-items: center;
+}
+
+#roulette,
+#record,
+#loginState {
+  margin-left: 50%;
+  vertical-align: middle;
+}
+
+#myPage {
+  margin-right: 10%;
+  line-height: 90px;
+}
